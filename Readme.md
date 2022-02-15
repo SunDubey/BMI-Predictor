@@ -1,6 +1,6 @@
-Objectives
+##Objectives
 
-1.Create the training dataset based on the BMI business rules.
+1.Create the training dataset based on the BMI business rules.<br />
 2.Develop a model to predict BMI. The thinking process is more important than the actual model or model metrics.
 3.Write steps to operationalize the model.
 
