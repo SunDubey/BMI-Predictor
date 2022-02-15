@@ -97,10 +97,8 @@ class BmiPredictor(object):
 
     def train_reg(self,X_train, y_train):
      
-      reg = BayesianRidge(alpha_1=1e-06, alpha_2=1e-06, alpha_init=None,
-              compute_score=False, copy_X=True, fit_intercept=True,
-              lambda_1=1e-06, lambda_2=1e-06, lambda_init=None, n_iter=300,
-              normalize=False, tol=0.001, verbose=False)
+      reg = HuberRegressor(alpha=0.0001, epsilon=1.35, fit_intercept=True, max_iter=100,
+               tol=1e-05, warm_start=False)
 
       reg.fit(X_train, y_train)
       
