@@ -8,7 +8,7 @@
 # Install packages<br />
 pip install -r requirements.txt<br />
 
-#Content<br />
+# Content<br />
 In BMI_Prediction.ipynb, there are 3 modules.<br />
 
 **Create the training dataset based on the BMI business rules, directly calculate BMI with height and weight data.<br />**
